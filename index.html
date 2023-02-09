@@ -23,38 +23,58 @@
                 <li><a href="#do">What we do</a></li>
                 <li><a href="#contact">Contact us</a></li>
             </ul>
-            <p class="header__nav-btn">
+            <p class="header__nav-btn popup">
                 Book an Appointment
             </p>
         </nav>
+        <div class="header__burger">
+            <div class="header__burger-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <img src="./static/img/logo.png" alt="Home">
+        </div>
+        <div class="header__burger-menu">
+            <nav class='header__burger-nav'>
+                <ul class="header__burger-ul">
+                    <li id="burger-btn"><a href="#services">Our services</a></li>
+                    <li id="burger-btn"><a href="#why">Why us</a></li>
+                    <li id="burger-btn"><a href="#do">What we do</a></li>
+                    <li id="burger-btn"><a href="#contact">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="header__body">
             <div class="header__body-content">
                 <div class="header__body-text">
                     <h1>For All-Round Healthy Smiles</h1>
                     <p class="header__body-text-subtitle">Comprehensive general and cosmetic dentistry</p>
-                    <p class="header__body-text-btn">
+                    <p class="header__body-text-btn popup">
                         Reqeust an Appointment
                     </p>
                     <p>*Or call (000) 123-1230</p>
                 </div>
-                <div class="header__body-form">
-                    <div class="header__body-form-content">
-                        <p>Request an Appointment</p>
-                        <p>We'll reach out to youas soon as possible to discuss your dental needs</p>
-                        <form action="#">
-                            <input type="text" name="name" id="name" placeholder="Your name">
-                            <input type="email" name="email" id="email" placeholder="E-mail">
-                            <input type="tel" name="tel" id="tel" placeholder="Mobile Number">
-                            <textarea name="message" id="message" cols="30" rows="10"
-                                placeholder="Leave your message"></textarea>
-                            <div>
-                                <input type="checkbox" name="declare" id="declare" checked>
-                                <label for="declare">I declare that the information provided is correct. I would like to
-                                    receive communication about our services.
-                                </label>
-                            </div>
-                            <button type="submit">Submit</button>
-                        </form>
+                <div class="form__wrapper">
+                    <div class="header__body-form">
+                        <div class="header__body-form-content">
+                            <p>Request an Appointment<span class="popup_close">X</span></p>
+                            <p>We'll reach out to you as soon as possible to discuss your dental needs</p>
+                            <form action="#">
+                                <input type="text" name="name" id="name" placeholder="Your name">
+                                <input type="email" name="email" id="email" placeholder="E-mail">
+                                <input type="tel" name="tel" id="tel" placeholder="Mobile Number">
+                                <textarea name="message" id="message" cols="30" rows="10"
+                                    placeholder="Leave your message"></textarea>
+                                <div>
+                                    <input type="checkbox" name="declare" id="declare" checked>
+                                    <label for="declare">I declare that the information provided is correct. I would like to
+                                        receive communication about our services.
+                                    </label>
+                                </div>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,6 +110,7 @@
         </div>
     </header>
     <main>
+        </div>
         <section class="discover" id="services">
             <h2 class="discover__title title">Discover Our Services</h2>
             <p>Quis autem velis ets reprehender net etid quiste voluptate.</p>
@@ -152,7 +173,7 @@
                 <div class="discover__swiper-button-prev swiper-button-prev"></div>
                 <div class="discover__swiper-button-next swiper-button-next"></div>
             </div>
-            <div class="discover__btn btn-green-long">
+            <div class="discover__btn btn-green-long popup">
                 <p>Reqeust an Appointment</p>
             </div>
         </section>
@@ -210,7 +231,7 @@
                 <div class="why__swiper-button-prev swiper-button-prev"></div>
                 <div class="why__swiper-button-next swiper-button-next"></div>
             </div>
-            <div class="why__btn btn-green-long">
+            <div class="why__btn btn-green-long popup">
                 <p>Reqeust an Appointment</p>
             </div>
         </section>
@@ -220,7 +241,7 @@
                 <p>Adult or Children Orthodontic Treatments</p>
             </div>
             <div class="line__right">
-                <div class="line__right-btn">
+                <div class="line__right-btn popup">
                     <p>Get Appointment Now</p>
                 </div>
             </div>
