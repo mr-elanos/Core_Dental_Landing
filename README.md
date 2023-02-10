@@ -6,3 +6,5 @@ Landing for Dental clinic. In this project:
 - burger-menu, carousel, modals, accordion, animation;
 - responsive design;
 - semantic tags;
+
+https://mr-elanos.github.io/Core_Dental_Landing/
