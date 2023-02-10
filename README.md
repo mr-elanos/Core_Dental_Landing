@@ -3,7 +3,7 @@ Landing for Dental clinic. In this project:
 
 - CSS flexbox and CSS Grid Layout;; 
 - SASS/SCSS;
-- burger-menu, carousel, modals, accordion, animation;
+- burger-menu, carousel, modals-pop, accordion, animation;
 - responsive design;
 - semantic tags;
 
